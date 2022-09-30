@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-09-18T15:35:17.989Z</updated>
+  <updated>2022-09-30T06:43:06.337Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>我做了一个自己打字的键盘...</title>
+    <link href="http://example.com/posts/5e77d6d5.html"/>
+    <id>http://example.com/posts/5e77d6d5.html</id>
+    <published>2022-09-30T06:20:33.833Z</published>
+    <updated>2022-09-30T06:43:06.337Z</updated>
+    
+    <content type="html"><![CDATA[<div style="position: relative;width: 100%;height: 0;padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=771908203&bvid=BV1W14y1b7Mq&cid=801456559&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">
+&lt;div style=&quot;position: relative;width: 100%;height: 0;padding-bottom: 75%;&quot;&gt;&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=771908203&amp;bvi</summary>
+      
+    
+    
+    
+    
+    <category term="日常" scheme="http://example.com/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
     <title>开始我的博客之旅</title>
     <link href="http://example.com/posts/2b5cd6ed.html"/>
     <id>http://example.com/posts/2b5cd6ed.html</id>
     <published>2022-09-18T15:23:50.725Z</published>
-    <updated>2022-09-18T15:35:17.989Z</updated>
+    <updated>2022-09-30T06:33:24.479Z</updated>
     
     <content type="html"><![CDATA[<h1 id="秋分"><a href="#秋分" class="headerlink" title="秋分"></a>秋分</h1><blockquote><p>致新的生活<br>  happy</p></blockquote>]]></content>
     
