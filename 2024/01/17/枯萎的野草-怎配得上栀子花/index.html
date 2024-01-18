@@ -414,7 +414,7 @@ queueMicrotask(() => {
   const init = () => {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
-      envId: 'http://156.224.22.138:8099',
+      envId: 'https://twikoo.tlwxianyu.cn/',
       region: '',
       onCommentLoaded: function () {
         anzhiyu.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
@@ -426,7 +426,7 @@ queueMicrotask(() => {
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: 'http://156.224.22.138:8099',
+      envId: 'https://twikoo.tlwxianyu.cn/',
       region: '',
       urls: [window.location.pathname],
       includeReply: false
@@ -447,7 +447,7 @@ queueMicrotask(() => {
       setTimeout(runFn,0)
       return
     } 
-    getScript('https://cdn.cbd.int/twikoo@1.6.17/dist/twikoo.all.min.js').then(runFn)
+    getScript('https://cdn.cbd.int/twikoo@1.6.30/dist/twikoo.all.min.js').then(runFn)
   }
   if ('Twikoo' === 'Twikoo' || !true) {
     if (true) anzhiyu.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
@@ -475,7 +475,7 @@ queueMicrotask(() => {
   const getComment = () => {
     const runTwikoo = () => {
       twikoo.getRecentComments({
-        envId: 'http://156.224.22.138:8099',
+        envId: 'https://twikoo.tlwxianyu.cn/',
         region: '',
         pageSize: 6,
         includeReply: true
@@ -501,7 +501,7 @@ queueMicrotask(() => {
     if (typeof twikoo === 'object') {
       runTwikoo()
     } else {
-      getScript('https://cdn.cbd.int/twikoo@1.6.17/dist/twikoo.all.min.js').then(runTwikoo)
+      getScript('https://cdn.cbd.int/twikoo@1.6.30/dist/twikoo.all.min.js').then(runTwikoo)
     }
   }
 

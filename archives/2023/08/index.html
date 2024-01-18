@@ -47,7 +47,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2024-01-18 11:00:41',
+  postUpdate: '2024-01-18 12:56:51',
   postMainColor: '',
 }</script><noscript><style type="text/css">
   #nav {
@@ -423,7 +423,7 @@ queueMicrotask(() => {
   const getComment = () => {
     const runTwikoo = () => {
       twikoo.getRecentComments({
-        envId: 'http://156.224.22.138:8099',
+        envId: 'https://twikoo.tlwxianyu.cn/',
         region: '',
         pageSize: 6,
         includeReply: true
@@ -449,7 +449,7 @@ queueMicrotask(() => {
     if (typeof twikoo === 'object') {
       runTwikoo()
     } else {
-      getScript('https://cdn.cbd.int/twikoo@1.6.17/dist/twikoo.all.min.js').then(runTwikoo)
+      getScript('https://cdn.cbd.int/twikoo@1.6.30/dist/twikoo.all.min.js').then(runTwikoo)
     }
   }
 
